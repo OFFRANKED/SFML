@@ -21,7 +21,7 @@ std::vector<AircraftData> initializeAircraftData()
 #pragma endregion
 
 
-	data[Aircraft::Raptor].hitpoints = 10;
+	data[Aircraft::Raptor].hitpoints = 20;
 	data[Aircraft::Raptor].speed = 80.f;
 	data[Aircraft::Raptor].texture = Textures::Asteroid;
 	data[Aircraft::Raptor].textureRect = sf::IntRect(0, 0, 64, 64);
